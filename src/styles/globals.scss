@@ -3,3 +3,13 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 8px;
+}
