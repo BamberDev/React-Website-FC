@@ -1,0 +1,50 @@
+.homeContainer {
+  height: 100vh;
+  color: white;
+
+  background-image: url("../../assets//Background.jpg");
+  background-size: cover;
+  background-position: center;
+  .backgroundContainer {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainSectionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 25px;
+    gap: 35px;
+
+    @media (min-width: 1024px) {
+      font-size: 22px;
+      padding: 0 100px;
+    }
+  }
+  .offerButton {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+
+    @media (min-width: 1024px) {
+      transition: all 1s ease;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
