@@ -1,4 +1,4 @@
-.homeContainer {
+.mainSectionContainer {
   height: 100vh;
   color: white;
 
@@ -20,12 +20,12 @@
     justify-content: center;
     font-weight: 700;
     font-size: 18px;
-    padding: 0 25px;
+    padding: 0 27px;
     gap: 35px;
 
     @media (min-width: 1024px) {
       font-size: 22px;
-      padding: 0 100px;
+      padding: 0 102px;
     }
   }
   .offerButton {

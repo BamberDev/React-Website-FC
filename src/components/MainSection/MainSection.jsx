@@ -2,7 +2,7 @@ import styles from "./MainSection.module.scss";
 
 const MainSection = () => {
   return (
-    <section className={styles.homeContainer}>
+    <section className={styles.mainSectionContainer}>
       <div className={styles.backgroundContainer}>
         <div className="container">
           <div className={styles.mainSectionContent}>
