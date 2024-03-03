@@ -6,7 +6,9 @@ const MainSection = () => {
       <div className={styles.backgroundContainer}>
         <div className="container">
           <div className={styles.mainSectionContent}>
-            <h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
+            <h1 className={styles.title}>
+              Nasza firma oferuje najwyższej jakości produkty.
+            </h1>
             <p>Nie wierz nam na słowo - sprawdź</p>
             <button className={styles.offerButton}>Oferta</button>
           </div>

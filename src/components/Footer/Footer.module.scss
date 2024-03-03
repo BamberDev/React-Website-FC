@@ -1,9 +1,6 @@
 .footer {
   background-color: #4e4e4e;
-  padding: 30px 15px;
-  p {
-    margin-bottom: 5px;
-  }
+  padding: 25px 10px;
 
   .footerInfo {
     color: white;
@@ -15,12 +12,16 @@
     .companyName {
       font-size: 18px;
       font-weight: bold;
+      margin: 6px 0;
     }
     .socials {
       svg {
         width: 30px;
         height: 30px;
-        margin: 0 5px;
+        margin: 0px 5px;
+        @media (min-width: 1024px) {
+          margin-top: 4px;
+        }
       }
       a {
         color: inherit;
@@ -42,7 +43,7 @@
     }
 
     .socials {
-      margin: 0 7px;
+      margin: 0 5px;
     }
   }
 }
