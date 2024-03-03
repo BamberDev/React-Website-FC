@@ -1,0 +1,43 @@
+.offerContainer {
+  background-color: #405d78;
+  padding: 45px;
+
+  @media (min-width: 1024px) {
+    padding: 45px 110px;
+  }
+}
+
+.offerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  align-self: center;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 26px;
+
+  @media (min-width: 1024px) {
+    align-self: flex-start;
+    font-size: 36px;
+  }
+}
+
+.offerList {
+  list-style: none;
+  gap: 10px;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
