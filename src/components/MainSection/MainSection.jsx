@@ -10,7 +10,9 @@ const MainSection = () => {
               Nasza firma oferuje najwyższej jakości produkty.
             </h1>
             <p>Nie wierz nam na słowo - sprawdź</p>
-            <button className={styles.offerButton}>Oferta</button>
+            <button className={styles.offerButton}>
+              <a href="#offer">Oferta</a>
+            </button>
           </div>
         </div>
       </div>
