@@ -1,9 +1,8 @@
-import { nanoid } from "nanoid";
 import styles from "./Employee.module.scss";
 
 const Employee = ({ employee }) => {
   return (
-    <li key={nanoid()} className={styles.employeeList}>
+    <li className={styles.employeeList}>
       <div className={styles.employee}>
         <img
           className={styles.employeeImage}
