@@ -5,7 +5,7 @@ import { employees } from "../../data/employeesOptions";
 
 const AboutUs = () => {
   return (
-    <section id="about-us">
+    <section className={styles.sectionContainer} id="about-us">
       <div className={styles.aboutUsContainer}>
         <h1 className={styles.title}>Nasi specjaliści</h1>
         <ul className={styles.employeesList}>
