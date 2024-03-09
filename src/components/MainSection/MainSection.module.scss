@@ -34,15 +34,14 @@
     font-size: 36px;
   }
 
-  .offerButton {
+  .offerLink {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    padding: 10px 0;
+    padding: 10px 40px;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 3px solid white;
-    cursor: pointer;
 
     @media (min-width: 1024px) {
       transition: all 1s ease;
@@ -51,11 +50,6 @@
         background-color: white;
         color: black;
       }
-    }
-    a {
-      text-decoration: none;
-      color: inherit;
-      padding: 10px 40px;
     }
   }
 }
